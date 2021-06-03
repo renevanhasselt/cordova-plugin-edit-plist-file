@@ -31,7 +31,7 @@
     <platform name="ios">
         
         <!-- iOS14 Tracking -->
-        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+        <config-file target="*-Info.plist" parent="NSUserTrackingUsageDescription">
             <string>We use your data to improve your app experience.</string>
         </config-file>
         
